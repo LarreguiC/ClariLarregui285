@@ -1,0 +1,31 @@
+.Time{
+	color: gray;
+}
+
+.destination{
+	font-family: cursive;
+	color: orange;
+}
+
+.description{
+	font-weight: bold;
+}
+
+.description-1{
+	color: red;
+	font-weight: bold;
+}
+
+.description-2{
+	color: purple;
+	font-weight: bold;
+}
+
+.description-3{
+	color: blue;
+	font-weight: bold;
+}
+
+.Beijing{
+	border-radius: 30%;
+}
