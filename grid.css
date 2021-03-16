@@ -1,0 +1,67 @@
+.main-head{
+	grid-area: header;
+	text-align: center;
+	color: white;
+	font-family: 'Redressed', cursive;
+	font-size: 25px;
+	grid-template-areas: "header";
+	gap:30px;
+	display: grid;
+	border: 3px solid white;
+	background-color: transparent;
+	border-radius: 20px;
+}
+
+.wrapper{
+	text-align: center;
+	color: skyblue;
+	font-family: 'Redressed', cursive;
+	font-size: 25px;
+	display: grid;
+	grid-template-columns: repeat(3, 500px);
+	grid-template-rows: repeat(2, 425px);
+}
+
+body{
+	background-image: url("disney.jpg");
+	background-size: cover;
+	font-family: 'Redressed', cursive;
+	font-weight: 600;
+}
+
+#item1{
+	background-color: #6082B6;
+	border-radius: 20px;
+}
+
+#item2{
+	background: #66023C;
+	border-radius: 20px;
+	color: red;
+}
+
+#item3{
+	background: green;
+	border-radius: 20px;
+	color: black;
+}
+
+#item4{
+	background: #FB928E;
+	border-radius: 20px;
+	color: white;
+}
+
+#item5{
+	background: royalblue;
+	border-radius: 20px;
+	color: red;
+}
+
+#item6{
+	background: orange;
+	border-radius: 20px;
+	color: purple;
+	
+}
+
