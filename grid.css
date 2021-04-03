@@ -22,18 +22,6 @@
 	grid-template-rows: repeat(2, 425px);
 }
 
-a:link{
-    color: white;
-    background-color: transparent;
-    text-decoration: none;
-}
-
-a:visited{
-    color: white;
-    background-color: none;
-    text-decoration: none;
-}
-
 body{
 	background-image: url("disney.jpg");
 	background-size: cover;
