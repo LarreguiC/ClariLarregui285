@@ -1,4 +1,4 @@
-.main-head{
+`.main-head{
 	grid-area: header;
 	text-align: center;
 	color: white;
@@ -21,6 +21,14 @@
 	grid-template-columns: repeat(3, 500px);
 	grid-template-rows: repeat(2, 425px);
 }
+
+.link{ 
+	color: #FF0000; 
+} 
+
+.link:hover { 
+	color: #00FF00; 
+} 
 
 body{
 	background-image: url("disney.jpg");
