@@ -22,14 +22,6 @@
 	grid-template-rows: repeat(2, 425px);
 }
 
-.link{ 
-	color: #FF0000; 
-} 
-
-.link:hover { 
-	color: #00FF00; 
-} 
-
 body{
 	background-image: url("disney.jpg");
 	background-size: cover;
