@@ -22,6 +22,10 @@
 	grid-template-rows: repeat(2, 425px);
 }
 
+.link{ 
+	color: white; 
+} /* CSS link color */
+
 body{
 	background-image: url("disney.jpg");
 	background-size: cover;
