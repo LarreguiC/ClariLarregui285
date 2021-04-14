@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		div.a{
+			width: 150px;
+			height: 80px;
+			background-color: yellow;
+			transform: rotate(0deg);
+			transition: transform 5s;
+		}
+
+		div.a:hover{
+			transform: rotate(45deg);
+		}
+		div.b{
+			width: 150px;
+			height: 80px;
+			background-color: red;
+			transform: skewX(45deg);
+			transition: transform ease-in-out 3s
+		}
+		div.b:hover{
+			transform: translate(90px);
+		}
+		div.c{
+			width: 150px;
+			height: 80px;
+			background-color: green;
+			transform: translate(120px);
+			transition: transform 4s;
+		}
+		div.c:hover{
+			transform: rotate(-45deg);
+		}
+		div.d{
+			width: 150px;
+			height: 80px;
+			background-color: blue;
+			transform: scaleX(2.8);
+			transition: transform 4s ease-in-out;
+
+		}
+		div.d:hover{
+			transform: scale(1);
+		}
+	</style>
+</head>
+<body>
+	<h1>Class Assignment 9</h1>
+<center>
+
+<div class='a'>Hello World!</div>
+<div class='b'>Hello World!</div>
+<div class='c'>Hello World!</div>
+<div class='d'>Hello World!</div>
+
+</center>
+</body>
+</html>
