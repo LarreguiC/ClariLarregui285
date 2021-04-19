@@ -33,7 +33,7 @@ img:hover{
   transition: .3s ease;
 }
 
-.css-selector {
+body{
     background: linear-gradient(270deg, #962972, #a965da, #42c6ff);
     background-size: 600% 600%;
 
